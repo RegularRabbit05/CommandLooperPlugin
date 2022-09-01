@@ -1,0 +1,15 @@
+name: Command Looper
+version: '${project.version}'
+main: github.regularrabbit05.commandloop.Plugin
+load: STARTUP
+description: Loops commands
+website: https://github.com/RegularRabbit05
+commands:
+  loop:
+    description: Loops a command
+    usage: /<command> <times> <command to execute + arguments>
+    permission: commandloop.loop
+  loopTimed:
+    description: Loops a command with a timeout
+    usage: /<command> <times> <delay> <command to execute + arguments>
+    permission: commandloop.looptimed
